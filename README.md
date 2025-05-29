@@ -4,7 +4,9 @@
 </p>
 
 <h1>Deployment and Configuration of Active Directory in the Cloud</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+
+In this tutorial, we walk through deploying Active Directory in a simulated on-premises environment using Azure Virtual Machines.
+<br />
 
 <h2>⚠️ Prerequisites</h2>
 
