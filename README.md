@@ -10,14 +10,14 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
 
 <h2>⚠️ Prerequisites</h2>
 
-- [Creating Virtual Machines in the Cloud](https://github.com/joshuaheck1/VM-creation)
+- [Creating Virtual Machines in the Cloud](https://github.com/ajowyit/creating-virtual-machines)
   
-- [Create Active Directory Infrastructure in Azure](https://github.com/joshuaheck1/create-ad-infrastructure)
+- [Create Active Directory Infrastructure in Azure](https://github.com/ajowyit/create-ad-infrastructure)
 
 <h2>💻 Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Wndows App (for macOS)
+- Microsoft Azure 
+- Windows App (for macOS)
 - Remote Desktop
 - Active Directory Domain Services
 
@@ -27,7 +27,7 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>📋 High-Level Deployment and Configuration Steps</h2>
+<h2>📋 High-Level Steps</h2>
 
 - Step 1: Install Active Directory
 - Step 2: Create a Domain Admin User within the Domain
