@@ -42,8 +42,8 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
 </p>
 
 <p>
-- Login into DC-1 via Remote Desktop.
-<p>- In Server Manager, select "Add roles and features" and click Next.</p>
+- Login into DC-1 using RDP/Remote Desktop/Windows App.
+<p>- In Server Manager, select "Add roles and features". Click on Next.</p>
 <br />
 
 <p>
@@ -51,7 +51,7 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
 </p>
 
 <p>
-- Select the destination server and click Next. (Only one should be listed, our DC-1).
+- Select the destination server. Click Next. Only one should be listed, which is DC-1.
 </p>
 <br />
 
@@ -66,16 +66,16 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
   </tr>
 </table>
 <p>
- - For Server Roles, select Active Directotry Domain Services (ADDS) and click Add Features.
-<p> - Confirm the box is checked next to ADDS and click Next.</p>
+ - For Server Roles, select Active Directotry Domain Services (ADDS). Click on Add Features.
+<p> - Ensure that the box is checked next to ADDS. Click on Next.</p>
 <br />
 
 <p>
 <img width="800" alt="DAD5" src="https://github.com/user-attachments/assets/38137c49-ed14-42fa-a5d2-22581ef9b503" />
 </p>
 <p>
- - Check the box next to Restart the destination server automatically if required. Click Yes on the pop-up and click Install.
-<p> - Once the Feature installation finishes, simply click Close.</p>
+ - Check the box next to Restart the destination server automatically if required. Click on Yes on the pop-up and then click on Install.
+<p> - When the installation is finished, click Close.</p>
 <br />
 
 <p>
@@ -83,9 +83,9 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
 </p>
 
 <p>
-- Now, locate the flag and yellow tringle at the top right of the sreen in Server Manager and click on it.
+- Find the flag and yellow tringle at the top right of the screen in Server Manager and click on it.
 </p>
-<p>- Next, select Promote this server to a domain controller.</p>
+<p>- Select Promote this server to a domain controller.</p>
 <br />
 
 <table>
@@ -99,8 +99,8 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
   </tr>
 </table>
 <p>
- - Under "Select the deployment operation", select Add a new forest and name it mydomain.com -> click Next.
-<p> - For the DSRM password, just use Password1. We will not use this at all. Click Next.</p>
+ - Under "Select the deployment operation", select Add a new forest. Name it mydomain.com and then click on next.
+<p> - For the DSRM password, just use Password1. We won't be using this at all so it is unimportant. Click on Next.</p>
 <br />
 
 <table>
@@ -114,9 +114,11 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
   </tr>
 </table>
 <p>
- - Uncheck the DNS delegation options and click Next. Keep clicking Next for the next couple on options until you see Figure 10.
-<p> - Now that all the options have been configured, click Install to begin installation.</p>
-<p>- Once the install is finished, DC-1 will reboot. This might take a couple minutes because DC-1 is now on the domain.</p>
+ - Uncheck the DNS delegation options and click Next until all options have been configured. Finally, click Install to start the installation.
+
+<p>
+ - Once the install is finished, DC-1 will reboot. This might take a couple minutes because DC-1 is now on the domain.
+</p>
 <br />
 
 <p>
@@ -331,7 +333,7 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
 
 <h2>✅ Conclusion</h2>
 
-<p>This concludes our project. We did it! AD has been successfully deployed. We will add a bunch of users next. Don't forget to Stop (turn off) the VMs in Azure. As always, Thank You for your time and viewing this Project. We'll see you on the next one! 😎      
+<p>That wraps up our project — success! Active Directory has been successfully deployed, and next, we'll be adding a batch of users to the domain. Don’t forget to stop (turn off) your Azure VMs to avoid unnecessary charges. Thanks for following along, and we’ll see you in the next project! 😎     
 </p>
 <br />
 
