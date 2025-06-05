@@ -81,38 +81,6 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
 <br />
 
 <p>
-<img width="800" alt="DAD2" src="https://github.com/user-attachments/assets/6c183f05-52e8-44d7-94d9-cd2dbd424be0" />
-</p>
-
-<p>
-- Select the destination server. Click Next. Only one should be listed, which is DC-1.
-</p>
-<br />
-
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="DAD3" src="https://github.com/user-attachments/assets/ff9d92da-e5ff-42b4-909f-74830be3e249" />
-    </td>
-    <td>
-      <img width="1000" alt="DAD4" src="https://github.com/user-attachments/assets/2d876eea-6b39-4958-bdda-62fc94070b81" />
-    </td>
-  </tr>
-</table>
-<p>
- - For Server Roles, select Active Directotry Domain Services (ADDS). Click on Add Features.
-<p> - Ensure that the box is checked next to ADDS. Click on Next.</p>
-<br />
-
-<p>
-<img width="800" alt="DAD5" src="https://github.com/user-attachments/assets/38137c49-ed14-42fa-a5d2-22581ef9b503" />
-</p>
-<p>
- - Check the box next to Restart the destination server automatically if required. Click on Yes on the pop-up and then click on Install.
-<p> - When the installation is finished, click Close.</p>
-<br />
-
-<p>
 <img width="800" alt="DAD7" src="https://github.com/user-attachments/assets/d15cbaa1-35a8-47dc-80fa-e81db8cba77f" />
 </p>
 
