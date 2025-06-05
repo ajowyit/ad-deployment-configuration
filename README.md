@@ -73,7 +73,10 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
  - In "Server Selection"/"Select destination server", make sure that DC-1 is the only one listed and selected. Click on "Next >".
 </p>
 <p>
- - In "Server Roles"/"Select server roles", select "Active Directory Domain Services". The "Add Roles and Features Wizard" window will pop up asking you if you want to add features required for Active Directory Domain Services. Click "Add Features".
+ - In "Server Roles"/"Select server roles", select "Active Directory Domain Services". The "Add Roles and Features Wizard" window will pop up asking you if you want to add features required for Active Directory Domain Services. Click "Add Features". "Active Directory Domain Services" should now be selected. Click on "Next >".
+</p>
+<p>
+ - Click "Next >" until you get to "Confirmation"/"Confirm installation selctions". Click "Install" then click "Yes" when asked about allowing automatic restarts if a restart is required in the popup window. Once the feature installation finishes, click "Close".
 </p>
 <br />
 
