@@ -38,12 +38,43 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
 
 <h3>Step 1: Install Active Directory</h3>
 <p>
-<img width="800" alt="DAD1" src="https://github.com/user-attachments/assets/e448cbc4-30a5-433c-8730-f2a1acccc464" />
+<img width="1699" alt="Screenshot 2025-06-05 at 2 32 44 PM" src="https://github.com/user-attachments/assets/cb2bc07f-b070-4f37-b13c-53ed085cf0a9" />
+
+<img width="786" alt="Screenshot 2025-06-05 at 2 32 59 PM" src="https://github.com/user-attachments/assets/c060829e-c3ed-418d-bd95-ac8ab90617f6" />
+
+<img width="785" alt="Screenshot 2025-06-05 at 2 33 37 PM" src="https://github.com/user-attachments/assets/fd0e9864-d4d0-419b-a128-8e3dae11a458" />
+
+<img width="785" alt="Screenshot 2025-06-05 at 2 33 49 PM" src="https://github.com/user-attachments/assets/48b9f342-eaa5-474d-963b-3c69b1c5c4d7" />
+
+<img width="787" alt="Screenshot 2025-06-05 at 2 34 16 PM" src="https://github.com/user-attachments/assets/0438558b-f2ca-4cf1-990b-31af50d7bf8d" />
+
+<img width="788" alt="Screenshot 2025-06-05 at 2 34 28 PM" src="https://github.com/user-attachments/assets/8ecd3d73-1812-435f-979f-9fdd531ae9da" />
+
+<img width="787" alt="Screenshot 2025-06-05 at 2 34 41 PM" src="https://github.com/user-attachments/assets/353ef1af-7094-4d5d-9f4a-3fe1e1d03716" />
+
+<img width="787" alt="Screenshot 2025-06-05 at 2 35 47 PM" src="https://github.com/user-attachments/assets/4d6b63b0-1ef5-4f44-bd99-2acf4018b357" />
+
+<img width="785" alt="Screenshot 2025-06-05 at 2 35 38 PM" src="https://github.com/user-attachments/assets/2fd5c34f-6197-4ab4-9ed9-d003d32950f7" />
+
+<img width="787" alt="Screenshot 2025-06-05 at 3 14 36 PM" src="https://github.com/user-attachments/assets/6c4aeaf6-b0dc-4a34-9897-5a3015dc954a" />
+
 </p>
 
 <p>
 - Login into DC-1 using RDP/Remote Desktop/Windows App.
-<p>- In Server Manager, select "Add roles and features". Click on Next.</p>
+</p>
+<p>
+- In Server Manager, select "Add roles and features". This will open the "Add Roles and Features Wizard" window. You will start at "Before You Begin". Click on "Next >".
+</p>
+<p>
+ - In "Installation Type"/"Select installation type", make sure "Role-based or feature-based installation" is selected. Click on "Next >".
+</p>
+<p>
+ - In "Server Selection"/"Select destination server", make sure that DC-1 is the only one listed and selected. Click on "Next >".
+</p>
+<p>
+ - In "Server Roles"/"Select server roles", select "Active Directory Domain Services". The "Add Roles and Features Wizard" window will pop up asking you if you want to add features required for Active Directory Domain Services. Click "Add Features".
+</p>
 <br />
 
 <p>
