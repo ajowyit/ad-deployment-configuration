@@ -108,30 +108,24 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
  - In "Domain Controller Options", for the DSRM password, just use Password1. We won't be using this at all so it is unimportant. Click on "Next >" until you get to Prerequisites Check. In "DNS Options" if "Specify DNS delecgation options" is checked, uncheck it.</p>
 <br />
 
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="DAD10" src="https://github.com/user-attachments/assets/64d0adad-2493-4946-a741-bc42363c0b97" />
-    </td>
-    <td>
-      <img width="1000" alt="DAD11" src="https://github.com/user-attachments/assets/7227030b-594e-484d-8e0c-dd27fa9b9670" />
-    </td>
-  </tr>
-</table>
 <p>
- - Uncheck the DNS delegation options and click Next until all options have been configured. Finally, click Install to start the installation.
+ <img width="763" alt="Screenshot 2025-06-05 at 4 42 32 PM" src="https://github.com/user-attachments/assets/ef98658f-cf0d-4cd8-96c3-7812a0aaca86" />
+</p>
 
 <p>
- - Once the install is finished, DC-1 will reboot. This might take a couple minutes because DC-1 is now on the domain.
+ - After clicking "Next >" until all options have been configured, click "Install" to start the installation.
+</p>
+<p>
+ - Once the install is finished, DC-1 will reboot. Then Remote Desktop back into DC-1 as a domain user
 </p>
 <br />
 
 <p>
-<img width="800" alt="Screenshot 2025-04-23 at 1 12 32 AM" src="https://github.com/user-attachments/assets/77357c2e-c68f-4366-af58-6acca7881af0" />
+<img width="1013" alt="Screenshot 2025-06-05 at 5 26 27 PM" src="https://github.com/user-attachments/assets/6e9d5081-e79f-4d9a-9b75-e9005a3cd94e" />
 </p>
 <p>
  - Remote Desktop back into DC-1. Since DC-1 is now a domain controller and on the domain, you have to specify which domain, and that you want to log on as a domain user.</p>  
-<p>- Enter "mydomain.com\jheck1" (mydomain.com\username)</p>
+<p>- When logging into DC-1 as a domain user, enter "mydomain.com\ajowyit" (mydomain.com\username) and your password</p>
 <p>- This will log us in as a specific user within the domain.</p>
 <br />
 
