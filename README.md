@@ -87,22 +87,25 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
 <p>
 - Find the flag and yellow tringle at the top right of the screen in Server Manager and click it.
 </p>
-<p>- Select Promote this server to a domain controller.</p>
+<p>
+ - Clock on "Promote this server to a domain controller".
+</p>
 <br />
 
 <table>
   <tr>
     <td>
-      <img width="1000" alt="DAD8" src="https://github.com/user-attachments/assets/59bd513e-b628-44f3-9cb4-9a83cfc6989d" />
+      <img width="761" alt="Screenshot 2025-06-05 at 4 38 19 PM" src="https://github.com/user-attachments/assets/bfd0382e-1118-4ba1-b684-e3006986c515" />
     </td>
     <td>
-      <img width="1000" alt="DAD9" src="https://github.com/user-attachments/assets/55e038e6-f13b-4388-bb5a-e13f3d33baa2" />
+      <img width="761" alt="Screenshot 2025-06-05 at 4 38 52 PM" src="https://github.com/user-attachments/assets/054d8389-4ee6-4ed6-8bfb-81b77f4be046" />
     </td>
   </tr>
 </table>
 <p>
- - Under "Select the deployment operation", select Add a new forest. Name it mydomain.com and then click on next.
-<p> - For the DSRM password, just use Password1. We won't be using this at all so it is unimportant. Click on Next.</p>
+ - This hshould open up the Active Directory Domain Services Configuration Wizard in a popup window. In "Deployment Configuration", under "Select the deployment operation", select "Add a new forest". Name it "mydomain.com" and then click on "Next >".
+<p> 
+ - In "Domain Controller Options", for the DSRM password, just use Password1. We won't be using this at all so it is unimportant. Click on "Next >" until you get to Prerequisites Check. In "DNS Options" if "Specify DNS delecgation options" is checked, uncheck it.</p>
 <br />
 
 <table>
