@@ -81,11 +81,11 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
 <br />
 
 <p>
-<img width="800" alt="DAD7" src="https://github.com/user-attachments/assets/d15cbaa1-35a8-47dc-80fa-e81db8cba77f" />
+<img width="1710" alt="Screenshot 2025-06-05 at 4 38 02 PM" src="https://github.com/user-attachments/assets/0cd56d47-de0b-471e-a065-7fb5d98a009a" />
 </p>
 
 <p>
-- Find the flag and yellow tringle at the top right of the screen in Server Manager and click on it.
+- Find the flag and yellow tringle at the top right of the screen in Server Manager and click it.
 </p>
 <p>- Select Promote this server to a domain controller.</p>
 <br />
