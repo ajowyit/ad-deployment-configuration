@@ -274,57 +274,67 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
 
 
 <p>
-<img width="800" alt="DAD29" src="https://github.com/user-attachments/assets/2bea523f-637c-4d03-9bfd-58d63b6f712d" />
+<img width="1203" alt="Screenshot 2025-06-06 at 10 37 41 PM" src="https://github.com/user-attachments/assets/f36208b3-4163-4ca2-abaa-56cdb2bc415b" />
+</p>
+<p>
+ - Join the domain. We will use the jane_admin account. </p>
+<p>
+ - Type in mydomain.com\jane_admin and the password. Click "OK". 
+</p>
+<br />
+
+<p>
+ <img width="963" alt="Screenshot 2025-06-06 at 10 38 46 PM" src="https://github.com/user-attachments/assets/56c3af0b-3dcd-4cfd-8939-423f08c79ef2" />
+ <img width="950" alt="Screenshot 2025-06-06 at 10 38 57 PM" src="https://github.com/user-attachments/assets/4512910b-1b0f-436f-b45c-e4f042e518e9" />
+</p>
+
+<p>
+ - Once you clicked OK, there should be a confirmation pop-up behind the System screen. Close that by clicking "OK".
+</p>
+<p>
+ - Another message should pop up saying we need to restartClient-1 will need to restart out computer to apply these changes. Restart the computer.
+</p>
+<br />
+
+<p>
+ <img width="835" alt="Screenshot 2025-06-06 at 10 43 20 PM" src="https://github.com/user-attachments/assets/a5139ff1-1e05-4c27-9311-4f583069852b" />
+<img width="754" alt="Screenshot 2025-06-06 at 10 51 33 PM" src="https://github.com/user-attachments/assets/d4e0b102-c8a2-40bd-b4c8-64bdd1dce365" />
+<img width="754" alt="Screenshot 2025-06-06 at 10 53 06 PM" src="https://github.com/user-attachments/assets/cda463c7-fd71-4f7e-a56c-411f1f02e213" />
+
+<img width="437" alt="Screenshot 2025-06-06 at 10 53 31 PM" src="https://github.com/user-attachments/assets/34fbfa62-2bc7-466f-a9d9-66423606e3fb" />
 
 </p>
-<p>- To join the domain, we will use the jane_admin account. </p>
-<p>- Enter in mydomain.com\jane_admin and password. click OK. </p>
+
+<p>
+ - Log into DC-1 now. Use the jane_admin account. (mydomain.com\jane_admin) 
+</p>
+<p>
+ - From the Start Menu, open Active Directory Users and Computers (ADUS). 
+</p>
+<p>
+ - Expand mydomain.com and select Computers. We can verify Client-1 is here and has successfully joined the domain. 
+</p>
+<p>
+ - Next, create a new Organizational Unit named _CLIENTS. Right-click "mydomain.com", go to "New", and click "Organizational Unit".
+</p>
+<p>
+ - Name the new Organizational Unit, "_CLIENTS". Click "OK".
+</p>
+
 <br />
 
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="DAD30" src="https://github.com/user-attachments/assets/b3fdd933-ddad-4be7-8dd5-de8ae77682ee" />
-    </td>
-    <td>
-      <img width="1000" alt="DAD31" src="https://github.com/user-attachments/assets/b2f1a5ce-f789-46e6-8c98-e69f62383f15" />
-    </td>
-  </tr>
-</table>
-<p>- Once you clicked OK, the pop-up happened behind the System screen. Close that and you will see it as in Figure 27.</p>
-<p>- Click OK.</p>
-<p>- Client-1 will need to restart. Click Restart Now.</p>
-<br />
+<p>
+ <img width="755" alt="Screenshot 2025-06-06 at 10 53 53 PM" src="https://github.com/user-attachments/assets/bc96d607-dbf1-4155-9d6b-0826cd8dba12" />
+<img width="756" alt="Screenshot 2025-06-06 at 10 54 06 PM" src="https://github.com/user-attachments/assets/0fb49e36-d7f1-4962-a4d6-8804fd2f49a5" />
+<img width="753" alt="Screenshot 2025-06-06 at 10 54 32 PM" src="https://github.com/user-attachments/assets/62b8642f-eabc-448f-a868-fecd55aa031a" />
+</p>
 
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="DAD33" src="https://github.com/user-attachments/assets/101b154b-33f6-4f94-a8ea-193d61e045a7" />
-    </td>
-    <td>
-      <img width="1000" alt="DAD34" src="https://github.com/user-attachments/assets/c26e0870-57d4-488b-a383-c9e47ec09d3d" />
-    </td>
-  </tr>
-</table>
-<p>- We will go to DC-1 now. If you just closed the connection earlier, simply log back in using the jane_admin account. (mydomain.com\jane_admin) </p>
-<p>- From the Start Menu -> Active Directory Users and Computers (ADUS). </p>
-<p>- Expand mydomain.com -> select Computers. We can verify Client-1 is here and successfully joined the domain. Figure 29</p>
-<p>- Now, we will create a new OU named _CLIENTS</p>
-<p>- Right-click mydomain.com -> select New -> click Organizational Unit</p>
-<br />
-
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="DAD36" src="https://github.com/user-attachments/assets/4cd8b573-cfee-42e6-8df2-59d4a8242d24" />
-    </td>
-    <td>
-      <img width="1000" alt="DAD37" src="https://github.com/user-attachments/assets/774bf3c8-40aa-4b6b-a3c5-8ef40cbac197" />
-    </td>
-  </tr>
-</table>
-<p>- Go back to Computers and drag Client-1 to the new _CLIENTS OU. </p>
-<p>- Click Yes on the pop-up. You can Refresh mydomain.com to move _CLIENTS to the top with _ADMINS & _EMPLOYEES if you want.</p>
+<p>
+ - Go back to Computers. Drag Client-1 to the new _CLIENTS OU. 
+</p>
+<p>
+ - Click "Yes" on the pop-up window. Refresh mydomain.com to move _CLIENTS to the top with the _ADMINS and _EMPLOYEES OUs (optional).
+</p>
 <br />
 
 <h3>Step 4: Setup Remote Desktop for non-admin users on Client-1</h3>
