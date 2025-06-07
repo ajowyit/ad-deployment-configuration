@@ -236,20 +236,7 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
 </p>
 <br />
 
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="DAD24" src="https://github.com/user-attachments/assets/e57fd05a-6735-448f-b1a9-87ac0b7768a5" />
-    </td>
-    <td>
-      <img width="1000" alt="DAD25" src="https://github.com/user-attachments/assets/229ab0d9-183a-4267-9868-a0ba8d777a03" />
-    </td>
-  </tr>
-</table>
-<p>- Select "Member of" and click "Add".</p>
-<p>- Type in "domain admins" and click "Check Names".</p>
-<p>- Notice that after clicking "Check Names", "Domain Admins" is now capitalized and underlined. Click OK. (See figure 23)</p>
-<br />
+
 
 <p>
 <img width="460" height="450" alt="DAD26" src="https://github.com/user-attachments/assets/9059c515-51f3-4185-b626-cb3b2f368e06" />
