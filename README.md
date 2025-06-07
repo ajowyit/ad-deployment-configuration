@@ -339,44 +339,44 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
 
 <h3>Step 4: Setup Remote Desktop for non-admin users on Client-1</h3>
 
-<p>
-<img width="500" height="400" alt="Screenshot 2025-04-23 at 11 21 16 AM" src="https://github.com/user-attachments/assets/147451a6-923c-4f87-b233-f63051053e16" />
-</p>
+
 <p>- Login into Client-1 with the jane_admin account.</p>
 <br />
 
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="RD1" src="https://github.com/user-attachments/assets/4c7f51ab-4d66-42fd-a001-23bbf927603a" />
-    </td>
-    <td>
-      <img width="1000" alt="RD2" src="https://github.com/user-attachments/assets/9b9e27b9-11d0-4721-8709-a6a4dffb6a28" />
-    </td>
-  </tr>
-</table>
-<p>- Right-click Start Menu -> select System -> click Remote Desktop. </p>
-<p>- In Remote Desktop Users, click Add. </p>
+<p>
+ <img width="784" alt="Screenshot 2025-06-06 at 11 36 47 PM" src="https://github.com/user-attachments/assets/b053640b-4eed-429f-a110-dc46f0adebf0" />
+<img width="1201" alt="Screenshot 2025-06-06 at 11 36 55 PM" src="https://github.com/user-attachments/assets/a6ef9f2c-afd1-409c-b103-864533527f13" />
+<img width="1203" alt="Screenshot 2025-06-06 at 11 38 02 PM" src="https://github.com/user-attachments/assets/aa76949b-59c4-4df9-8a91-55075902e563" />
+
+</p>
+<p>
+ - From the Start menu, open System. Click Remote Desktop. This will open tht Remote Desktop Users window.
+</p>
+<p>
+ - In the Remote Desktop Users window, click "Add". This will open the Select Users or Groups window. </p>
 <br />
 
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="RD3" src="https://github.com/user-attachments/assets/f6115248-d541-4fe0-8d65-9dacfaf79815" />
-    </td>
-    <td>
-      <img width="1000" alt="RD4" src="https://github.com/user-attachments/assets/ac7c5331-de75-4065-8c37-8e8d62cd4ac0" />
-    </td>
-  </tr>
-</table>
-<p>- Type in domain users and click Check Names. Domain Users will capitalize and be underlined. Click OK. </p>
-<p>- Confirm that MYDOMAIN\Domain Users is showing under Remote Desktop Users and click OK. </p>
-<p>- Now, all users in the Domain Users group can Remote Desktop into Client-1. </p>
+<p>
+<img width="456" alt="Screenshot 2025-06-06 at 11 38 30 PM" src="https://github.com/user-attachments/assets/c8066a7e-58c2-46f1-9315-d4fef151425d" />
+<img width="454" alt="Screenshot 2025-06-06 at 11 38 38 PM" src="https://github.com/user-attachments/assets/029e209b-9fae-4c4a-a657-92220ceb3f9d" />
+ <img width="461" alt="Screenshot 2025-06-06 at 11 38 44 PM" src="https://github.com/user-attachments/assets/f924ffa7-8e63-4941-a412-627ac5ad70b2" />
+<img width="380" alt="Screenshot 2025-06-06 at 11 38 57 PM" src="https://github.com/user-attachments/assets/06438b3d-0479-42ba-918e-6d4e03680e3c" />
+</p>
+<p>
+ - Under "Enter the object names to select", type in domain users. Click "Check Names". Domain Users will capitalize and be underlined. Click "OK". 
+</p>
+<p>
+ - Confirm "MYDOMAIN\Domain Users" is showing under Remote Desktop Users then click "OK". 
+</p>
+<p>
+ - Now, all users in the Domain Users group can Remote Desktop into Client-1. 
+</p>
 <br />
 
 <h2>✅ Conclusion</h2>
 
-<p>That wraps up our project — success! Active Directory has been successfully deployed, and next, we'll be adding a batch of users to the domain. Don’t forget to stop (turn off) your Azure VMs to avoid unnecessary charges. Thanks for following along, and we’ll see you in the next project! 😎     
+<p>
+ That concludes project! Active Directory has been successfully deployed! Next, we will be add a bunch of users to the domain! See you in the next project!    
 </p>
 <br />
 
