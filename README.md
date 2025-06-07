@@ -153,6 +153,7 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
 <p>
  <img width="754" alt="Screenshot 2025-06-06 at 6 42 50 PM" src="https://github.com/user-attachments/assets/9d165767-f5aa-4459-8797-9cde490d938d" />
 
+ <img width="438" alt="Screenshot 2025-06-06 at 6 43 03 PM" src="https://github.com/user-attachments/assets/385f3900-27f1-4ffc-ae10-e49ebee5a1bd" />
 </p>
 
 <p> 
@@ -164,61 +165,72 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
 <p>
  - Name the new Organizational Unit "_EMPLOYEES". Make sure there is an underscore in the beginning. Finish by clicking "OK". 
 </p>
-<br />
 
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="DAD15" src="https://github.com/user-attachments/assets/300ef3de-f8ed-4e94-8938-46ade24aaef8" />
-    </td>
-    <td>
-      <img width="1000" alt="DAD16" src="https://github.com/user-attachments/assets/756394d7-c8dc-4a37-9ecd-108c50dff317" />
-    </td>
-  </tr>
-</table>
-<p>- We will need to create another new Organizational Unit (OU).</p>
-<p>- Right-click mydomain.com -> New -> Organizational Unit. Name this OU as _ADMINS (don't forget the underscore). Click OK.</p>
 <br />
 
 <p>
-<img width="800" alt="DAD17" src="https://github.com/user-attachments/assets/9cf665b5-72a9-4e36-a53a-bb5049b07ce3" />
+ <img width="438" alt="Screenshot 2025-06-06 at 6 44 31 PM" src="https://github.com/user-attachments/assets/728e9299-0981-4ca4-a2db-29663b224530" />
+</p>
+
+<p>
+ - Next we will create another new Organizational Unit for admins called _ADMINS.
 </p>
 <p>
- - Now, right-click mydomain.com and select Refresh. This will move our new OUs to the top of the list for easier location and access.</p>  
+ - Right-click mydomain.com -> New -> Organizational Unit to create the new one. Name this OU as _ADMINS (don't forget the underscore). Click OK.
+</p>
+
 <br />
 
 <p>
-<img width="800" alt="DAD18" src="https://github.com/user-attachments/assets/86ae7e0f-d9e2-4a81-8bba-ec6066f5d7b0" />
+<img width="755" alt="Screenshot 2025-06-06 at 6 45 00 PM" src="https://github.com/user-attachments/assets/536766f9-41a5-4ee9-bf89-1b7b117bf4a8" />
+ 
+<img width="757" alt="Screenshot 2025-06-06 at 6 45 15 PM" src="https://github.com/user-attachments/assets/1ca6be69-ed34-4df4-96fe-8cd01b02ab14" />
 </p>
-<p>- Next, we will create a new user.</p> 
- <p>- Right-click _ADMINS -> select New -> click User.</p>
-<br />
-
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="DAD19" src="https://github.com/user-attachments/assets/4848b413-6391-40f2-bdb4-d9d79531988b" />
-    </td>
-    <td>
-      <img width="1000" alt="DAD20" src="https://github.com/user-attachments/assets/1fbf670b-c6bb-4683-b57e-e3ad8e4e6155" />
-    </td>
-  </tr>
-</table>
-<p>- Name the new user "Jane Doe" with the username "jane_admin" and click Next.</p>
-<p>- Use the same password as DC-1 to keep it simple. Uncheck "User must change password at next login" and check "Password never expires". (We wouldn't do this in the real world for security purposes, but its ok for this project 😉).</p>
+<p>
+ - Now, make sure mydomain.com is selected and select the Refresh icon at the top. This will move our new OUs to the top of the list for easier location and access.</p>  
 <br />
 
 <p>
-<img width="500" height="400" alt="DAD21" src="https://github.com/user-attachments/assets/a972929d-c10a-4b24-b6d8-d9261fba05bc" />
+<img width="752" alt="Screenshot 2025-06-06 at 6 47 25 PM" src="https://github.com/user-attachments/assets/439df63f-4d73-498a-be6a-ec45e5e31c32" />
+<img width="436" alt="Screenshot 2025-06-06 at 6 47 51 PM" src="https://github.com/user-attachments/assets/d45be76a-d273-49a5-811b-c69aa434a3ff" />
+<img width="437" alt="Screenshot 2025-06-06 at 7 00 51 PM" src="https://github.com/user-attachments/assets/ae2fd2c0-6380-4673-8818-a79af2e5ee43" />
+<img width="436" alt="Screenshot 2025-06-06 at 7 01 50 PM" src="https://github.com/user-attachments/assets/527c1562-005b-46d0-b32b-4af347242b5e" />
 </p>
-<p>- Confirm the new user's information and click Finish.</p> 
+<p>
+ - Next, we will create a new user.
+</p> 
+<p>
+ - Right-click _ADMINS -> go to "New" -> click "User".
+</p>
+<p>
+ - Name the new user as Jane Doe, with the first name "Jane" and the last name "Doe". Click "Next >".
+</p>
+<p>
+ - Use the same password as you did for DC-1 to make it easy to remember. Select "Password never expires". In the real world we shouldn't do this for security purposes but for the sake of this project it is okay. Click "Next >".
+</p>
+<p>
+ - Finally, click "Finish" to create the new user. 
+</p>
 <br />
 
+
 <p>
-<img width="800" alt="DAD23" src="https://github.com/user-attachments/assets/a8c61736-e95a-4adf-97f3-2f5cf010920c" />
+<img width="754" alt="Screenshot 2025-06-06 at 7 04 07 PM" src="https://github.com/user-attachments/assets/4bfb24c0-e474-48c9-a5b1-76e3edbc7bb5" />
+<img width="697" alt="Screenshot 2025-06-06 at 7 08 37 PM" src="https://github.com/user-attachments/assets/9862cf7b-6a4c-475b-bcbd-825676c6e72a" />
+
+<img width="713" alt="Screenshot 2025-06-06 at 7 08 44 PM" src="https://github.com/user-attachments/assets/a48f984f-0450-48a4-8da9-1a0e944b685f" />
+
+
 </p>
-<p>- Now, we will make "Jane Doe" a Domain Admin by adding this account to the built-in "Domain Admins" Security Group. </p> 
-<p>- Open the _ADMINS folder -> right-click Jane Doe -> select Properties.</p>
+<p>
+ - Now, we will make "Jane Doe" account we just created a Domain Admin by adding it to the built-in "Domain Admins" Security Group. 
+</p> 
+<p>
+ - Open the _ADMINS folder by clicking on it -> right-click Jane Doe -> click "Properties". This will open the Jane Doe Properties window.
+</p>
+<p>
+ - Click on "Member Of" at the top. Then click "Add
+</p>
 <br />
 
 <table>
