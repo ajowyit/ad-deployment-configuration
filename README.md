@@ -251,12 +251,18 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
 <h3>Step 3: Join Client-1 to the Domain</h3>
 
 <p>
-<img width="800" alt="DAD28" src="https://github.com/user-attachments/assets/6f9d0f46-f77e-4a4e-957d-20031cd8eaaa" />
+<img width="784" alt="Screenshot 2025-06-06 at 11 36 47 PM" src="https://github.com/user-attachments/assets/28d530e4-e647-4db5-8ae5-60395b434935" />
+<img width="1201" alt="Screenshot 2025-06-06 at 11 36 55 PM" src="https://github.com/user-attachments/assets/accf5c9e-55cd-430e-8826-146d74bdf7d3" />
+
+
 </p>
-<p>- Now, we will login to Client-1 as the original local admin. (jheck1) </p>
-<p>- Right-click Start Menu -> select System </p>
-<p>- Take a second and look over Figure 25. There is alot going on here and the windows pop-up in a weird order. </p>
-<p>- 1. Select "Rename this PC (advanced)". If you don't see this option at first, maximze the window or expand it to the right a little.</p>
+<p>
+ - Log into Client-1 as the original local admin. (ajowyit) </p>
+<p>
+ - Open System from the start menu.
+</p>
+<p>
+ - Click on "Rename this PC (advanced)". If you don't see this option at first, maximze the window or expand it.</p>
 <p>- 2. In the "Computer Name" tab, click "Change".</p>
 <p>- 3. Under "Member of" select "Domain" and type in mydomain.com. </p>
 <p>- 4. Click OK.</p>
