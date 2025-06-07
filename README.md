@@ -236,13 +236,16 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
 </p>
 <br />
 
-
+<p>
+<img width="410" alt="Screenshot 2025-06-06 at 7 10 01 PM" src="https://github.com/user-attachments/assets/aa5bf164-6e64-4691-9c00-72db9cf2e618" />
+</p>
 
 <p>
-<img width="460" height="450" alt="DAD26" src="https://github.com/user-attachments/assets/9059c515-51f3-4185-b626-cb3b2f368e06" />
+ - Jane Doe is now a Domain Admin. Click "OK".
 </p>
-<p>- We can confirm that Jane Doe is now a Domain Admin. The Force is strong with this one!🧘🏽‍♀️ (Click OK).</p>
-<p>- Next, we will log out and close the DC-1 connection. Then, we will log back into DC-1 with Jane Doe's Admin login and we'll use this account from now on. (Note Jane Doe's login info)</p>
+<p>
+ - Next, log out and close the DC-1 connection. Log back into DC-1 with Jane Doe's Admin login. We will use this account from now on. Make sure you take a note of Jane Doe's login info for later use.
+</p>
 <br />
 
 <h3>Step 3: Join Client-1 to the Domain</h3>
