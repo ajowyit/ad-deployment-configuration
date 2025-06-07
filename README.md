@@ -150,19 +150,20 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
 </p>
 
 
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="DAD13" src="https://github.com/user-attachments/assets/bef99c17-6550-48ac-9366-2466879d57e9" />
-    </td>
-    <td>
-      <img width="1000" alt="DAD14" src="https://github.com/user-attachments/assets/b8e40402-5612-44f1-868d-53c6dfc0e55d" />
-    </td>
-  </tr>
-</table>
+<p>
+ <img width="754" alt="Screenshot 2025-06-06 at 6 42 50 PM" src="https://github.com/user-attachments/assets/9d165767-f5aa-4459-8797-9cde490d938d" />
 
-<p> - Here we will create a new Organizational Unit (OU). </p>
-<p>- Right-click mydomain.com -> New -> Organizational Unit. Name this OU as _EMPLOYEES (don't forget the underscore). Click OK.</p>
+</p>
+
+<p> 
+ - Now we will create a new Organizational Unit (OU). 
+</p>
+<p>
+ - Right-click mydomain.com -> New -> Organizational Unit. This will open a window to create a new Organizational Unit.
+</p>
+<p>
+ - Name the new Organizational Unit "_EMPLOYEES". Make sure there is an underscore in the beginning. Finish by clicking "OK". 
+</p>
 <br />
 
 <table>
