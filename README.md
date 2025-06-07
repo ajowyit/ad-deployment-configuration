@@ -229,7 +229,10 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
  - Open the _ADMINS folder by clicking on it -> right-click Jane Doe -> click "Properties". This will open the Jane Doe Properties window.
 </p>
 <p>
- - Click on "Member Of" at the top. Then click "Add
+ - Click on "Member Of" at the top. Then click "Add...", the Select Groups window should pop up. Under "Enter the object names to select (examples):" type in "domain admins". Click "Check Names". 
+</p>
+<p>
+ - Domain names should now be capitalized and underlined. Click "OK"
 </p>
 <br />
 
