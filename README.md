@@ -253,8 +253,8 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
 <p>
 <img width="784" alt="Screenshot 2025-06-06 at 11 36 47 PM" src="https://github.com/user-attachments/assets/28d530e4-e647-4db5-8ae5-60395b434935" />
 <img width="1201" alt="Screenshot 2025-06-06 at 11 36 55 PM" src="https://github.com/user-attachments/assets/accf5c9e-55cd-430e-8826-146d74bdf7d3" />
-
-
+<img width="1202" alt="Screenshot 2025-06-06 at 10 35 17 PM" src="https://github.com/user-attachments/assets/972dd735-4ed5-422e-8403-ed232736ccba" />
+<img width="324" alt="Screenshot 2025-06-06 at 10 36 04 PM" src="https://github.com/user-attachments/assets/abd026e8-0d6d-42ca-9b87-6fac66dafed7" />
 </p>
 <p>
  - Log into Client-1 as the original local admin. (ajowyit) </p>
@@ -262,10 +262,14 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
  - Open System from the start menu.
 </p>
 <p>
- - Click on "Rename this PC (advanced)". If you don't see this option at first, maximze the window or expand it.</p>
-<p>- 2. In the "Computer Name" tab, click "Change".</p>
-<p>- 3. Under "Member of" select "Domain" and type in mydomain.com. </p>
-<p>- 4. Click OK.</p>
+ - Click on "Rename this PC (advanced)". If you don't see this option at first, maximze the window or expand it. The System Proerties window will pop up.</p>
+<p>
+ - Click "Change..."
+</p>
+<p>
+ - Under "Member of" select "Domain". Type in mydomain.com. Click "OK".
+</p>
+
 <br />
 
 
