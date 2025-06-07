@@ -131,6 +131,25 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
 
 <h3>Step 2: Create a Domain Admin User within the Domain</h3>
 
+<p>
+ <img width="836" alt="Screenshot 2025-06-06 at 6 40 23 PM" src="https://github.com/user-attachments/assets/ab307b12-26f0-4391-b01e-e2b395bb7543" />
+</p>
+
+<p>
+ - Once logged back into the DC-1 virtual machine, open up Windows Administrative Tools.
+</p>
+
+<p>
+ <img width="1125" alt="Screenshot 2025-06-06 at 6 41 39 PM" src="https://github.com/user-attachments/assets/3b683213-4e74-4615-bbe9-2c6f643c34a3" />
+
+ <img width="1399" alt="Screenshot 2025-06-06 at 6 42 39 PM" src="https://github.com/user-attachments/assets/51b476b8-3064-47d3-9a4e-ba1a028336f3" />
+</p>
+
+<p>
+ - Once the Administrative Tools window is open, click on "Active Directory Users and Computers". This will open the "Active Directory Users and Computers" window. 
+</p>
+
+
 <table>
   <tr>
     <td>
@@ -141,8 +160,7 @@ In this tutorial, we walk through deploying Active Directory in a simulated on-p
     </td>
   </tr>
 </table>
-<p>
- - Once you are back in DC-1, from the Start Menu -> select Windows Administrative Tools -> open Active Directory Users & Computers.
+
 <p> - Here we will create a new Organizational Unit (OU). </p>
 <p>- Right-click mydomain.com -> New -> Organizational Unit. Name this OU as _EMPLOYEES (don't forget the underscore). Click OK.</p>
 <br />
